@@ -259,3 +259,8 @@ body {
 .menu {
     display: flex;
 }
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
