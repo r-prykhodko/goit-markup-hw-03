@@ -133,7 +133,7 @@ body {
 
 .link-style-nav {
     color: var(--clr-navy-blue);
-   
+    padding: 24px 0;
 }
 
 .link-style-nav:hover,
