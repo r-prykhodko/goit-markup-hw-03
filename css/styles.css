@@ -65,7 +65,7 @@ body {
 
 
 
-/* effective-solutions */
+/* ========== EFECTIVE-SOLUTIONS ========== */
 
 .effective-solutions {
     background: var(--clr-navy-blue);
@@ -78,6 +78,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
 }
+
+/* ========== EFECTIVE-SOLUTIONS*END ========== */
 
 .address-style {
     color: var(--clr-slate);
@@ -236,7 +238,8 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -286,4 +289,5 @@ body {
     margin-right: 40px;
 
 }
+/* ========== HEADER*END ========== */
 
