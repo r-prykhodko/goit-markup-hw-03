@@ -274,6 +274,10 @@ body {
     color: var(--clr-slate);
 }
 
+.name-position {
+    padding: 32px 16px;
+}
+
 /* ========== OUR-TEAM*END ========== */
 
 .footer-p {
