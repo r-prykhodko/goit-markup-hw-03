@@ -69,6 +69,9 @@ body {
 
 .effective-solutions {
     background: var(--clr-navy-blue);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
 }
 
 .effective-solutions-text {
@@ -77,6 +80,38 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    
+}
+
+
+.btn {
+    border-radius: 4px;
+    border: none;
+    height: 56px;
+    min-width: 196px;
+    display: block;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--clr-iris);
+    color: var(--clr-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  
+
+    /* OCEAN */
+    color: var(--clr-white);
+    background: var(--clr-ocean);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; */
 }
 
 /* ========== EFECTIVE-SOLUTIONS*END ========== */
@@ -100,31 +135,7 @@ body {
     color: var(--clr-ocean);
 }
 
-.btn {
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    
 
-    background-color: var(--clr-iris);
-    color: var(--clr-white);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
-.btn:hover,
-.btn:focus {
-  
-
-    /* OCEAN */
-    color: var(--clr-white);
-    background: var(--clr-ocean);
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px; */
-}
 
 
 .btn-portfolio {
