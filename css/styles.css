@@ -81,11 +81,16 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
 
 .btn {
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 4px;
     border: none;
     height: 56px;
