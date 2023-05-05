@@ -186,18 +186,19 @@ body {
     gap: 24px;
 }
 
-.h-three-main {
+
+
+.about-us-list-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.h-three-about-us {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--clr-navy-blue);
-   
     margin-bottom: 8px;
-}
-
-.about-us-list-li {
-    width: calc((100% - 72px) / 4);
 }
 
 
@@ -234,6 +235,47 @@ body {
 
 /* ========== OUR-WORK*END ========== */
 
+/* ========== OUR-TEAM ========== */
+.our-team-section {
+    background-color: var(--clr-cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-team-img-bc {
+    background-color: var(--clr-white);
+}
+
+.h-three-main {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--clr-navy-blue);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-list-li {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--clr-slate);
+}
+
+/* ========== OUR-TEAM*END ========== */
+
 .footer-p {
     font-weight: 400;
     font-size: 16px;
@@ -268,15 +310,9 @@ body {
 
 
 
-.our-team-section {
-    background-color: var(--clr-cloud);
-    
-    
-}
 
-.our-team-img-bc {
-    background-color: var(--clr-white);
-}
+
+
 
 /* ========== HEADER ========== */
 .logo {
