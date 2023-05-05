@@ -93,8 +93,8 @@ body {
     margin-left: auto;
     border-radius: 4px;
     border: none;
-    height: 56px;
     min-width: 196px;
+    height: 56px;
     display: block;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
