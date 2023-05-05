@@ -263,14 +263,7 @@ body {
 
 
 
-.h-two-portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--clr-navy-blue);
 
-}
 
 
 
@@ -427,4 +420,28 @@ padding-bottom: 120px;
     margin-bottom: 72px;
 }
 
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.project-list-li {
+    width: calc((100% - 48px) / 3);
+}
+.project-list-link {
+    padding: 32px 16px;
+    border: 1px solid var(--clr-cornflower);
+    border-top: none;
+
+}
+.h-two-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--clr-navy-blue);
+    margin-bottom: 8px;
+}
 /* ========== PORTFOLIO*END ========== */
