@@ -192,8 +192,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--clr-navy-blue);
-    width: calc((100% - 72px) / 4);
+   
     margin-bottom: 8px;
+}
+
+.about-us-list-li {
+    width: calc((100% - 72px) / 4);
 }
 
 
